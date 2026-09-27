@@ -5,6 +5,7 @@ Archivos en results/analisis/:
   tabla_condiciones.csv        modelo x prompt x idioma x estilo
   tabla_dominios.csv           coincidencia exacta por modelo y dominio
   pruebas_mcnemar.csv          pruebas de McNemar exactas pareadas, con ajuste de Holm
+  pruebas_mcnemar_casos.csv    las mismas pruebas por caso (mayoría de las 3 repeticiones)
   consistencia.csv             acuerdo entre repeticiones
   errores.csv                  error principal por modelo y estilo
   sensibilidad_sin_vacias.csv  coincidencia exacta sin las respuestas vacías
@@ -164,6 +165,7 @@ def main():
     # una salida solo cuenta como exacta si además Fast Downward la acepta
     n_corr = int((d["exacto"] & ~d["sintaxis_ok"]).sum())
     d["exacto"] = d["exacto"] & d["sintaxis_ok"]
+    d.loc[~d["exacto"] & d["error_principal"].isna(), "error_principal"] = "sintaxis"
     models = list(dict.fromkeys(d["model"]))
 
     t_mod = funnel_table(d, ["model"])
@@ -189,6 +191,25 @@ def main():
         for c in ("p (McNemar exacto)", "p (Holm)"):
             t_tests[c] = t_tests[c].map(lambda v: f"{v:.4f}" if v >= 0.0001 else "<0.0001")
     t_tests.to_csv(os.path.join(out, "pruebas_mcnemar.csv"), index=False)
+
+    # robustez: las mismas pruebas por caso (correcto si al menos 2 de 3 repeticiones son exactas)
+    cases = (d.groupby(["model", "prompt", "lang", "style", "problem"])["exacto"].sum().ge(2)
+             .rename("exacto").reset_index())
+    base_c = ["model", "prompt", "lang", "style", "problem"]
+    tests_c = []
+    for factor, a, b in [("lang", "en", "es"), ("prompt", "P0", "P1"), ("style", "explicito", "implicito"),
+                         ("style", "explicito", "indirecto")]:
+        keys = [k for k in base_c if k != factor]
+        for m in models + ["(todos)"]:
+            sub = cases if m == "(todos)" else cases[cases.model == m]
+            r = paired_test(sub, factor, a, b, keys)
+            if r:
+                tests_c.append({"comparación": f"{factor}: {a} vs {b}", "modelo": m, **r})
+    t_tests_c = pd.DataFrame(tests_c)
+    t_tests_c["p (Holm)"] = multipletests(t_tests_c["p (McNemar exacto)"], method="holm")[1]
+    for c in ("p (McNemar exacto)", "p (Holm)"):
+        t_tests_c[c] = t_tests_c[c].map(lambda v: f"{v:.4f}" if v >= 0.0001 else "<0.0001")
+    t_tests_c.to_csv(os.path.join(out, "pruebas_mcnemar_casos.csv"), index=False)
 
     grp = d.groupby(["model", "prompt", "lang", "style", "problem"])["exacto"]
     cons = grp.agg(lambda s: s.nunique() == 1).groupby(level="model").mean().mul(100).round(1)
@@ -252,6 +273,8 @@ def main():
            "## Coincidencia exacta por dominio (%)", "", md(t_dom), "",
            "## Pruebas pareadas (McNemar exacto sobre coincidencia exacta; p ajustada por Holm)", "",
            md(t_tests) if not t_tests.empty else "Sin pares suficientes.", "",
+           "## Pruebas pareadas por caso (mayoría de 2 de 3 repeticiones; p ajustada por Holm)", "",
+           md(t_tests_c), "",
            "## Consistencia entre repeticiones", "", md(t_cons), "",
            "## Error principal por modelo y estilo (conteos)", "", md(t_err), "",
            "## Sensibilidad: coincidencia exacta (%) excluyendo respuestas vacías", "", md(t_sens), "",
