@@ -1,4 +1,4 @@
-;; Ambulance domain (STRIPS with typing).
+;; Ambulance domain created for this study (classical STRIPS with typing).
 (define (domain ambulance)
   (:requirements :strips :typing)
   (:types location ambulance patient)
