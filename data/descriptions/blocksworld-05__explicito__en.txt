@@ -1,0 +1,20 @@
+There are seven blocks: A, B, C, D, E, F and G. A robot arm can pick up and hold one block at a time.
+
+Initial state:
+- Block D is on the table.
+- Block A is on block F.
+- Block B is on block A.
+- Block C is on block D.
+- Block E is on block G.
+- Block F is on block C.
+- Block G is on block B.
+- Block E is clear (nothing is on top of it).
+- The robot's hand is empty.
+
+Goal:
+- Block A must be on block G.
+- Block B must be on block C.
+- Block C must be on block F.
+- Block D must be on block B.
+- Block F must be on block E.
+- Block G must be on block D.

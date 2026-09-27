@@ -1,0 +1,3 @@
+The network has five locations: l1, l2, l3, l4 and l5. The following are connected in both directions: l1 with l4, l1 with l5, l2 with l4, l3 with l4 and l4 with l5. The hospital is at l2. There is one ambulance, amb1, which is empty at l2. Help is needed for patient p1 at l1 and patient p2 at l4.
+
+All patients must be taken to the hospital.

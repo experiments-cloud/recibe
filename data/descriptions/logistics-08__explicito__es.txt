@@ -1,0 +1,31 @@
+Objetos: cit1, cit2 y cit3 son ciudades; pos1, pos2 y pos3 son ubicaciones; apt1, apt2 y apt3 son aeropuertos; tru1, tru2 y tru3 son camiones; apn1 es un avión; obj11, obj12, obj13, obj21, obj22, obj23, obj31, obj32 y obj33 son paquetes.
+
+Estado inicial:
+- El aeropuerto apt1 pertenece a la ciudad cit1.
+- El aeropuerto apt2 pertenece a la ciudad cit2.
+- El aeropuerto apt3 pertenece a la ciudad cit3.
+- La ubicación pos1 pertenece a la ciudad cit1.
+- La ubicación pos2 pertenece a la ciudad cit2.
+- La ubicación pos3 pertenece a la ciudad cit3.
+- El avión apn1 está en el aeropuerto apt1.
+- El paquete obj11 está en la ubicación pos1.
+- El paquete obj12 está en la ubicación pos1.
+- El paquete obj13 está en la ubicación pos1.
+- El paquete obj21 está en la ubicación pos2.
+- El paquete obj22 está en la ubicación pos2.
+- El paquete obj23 está en la ubicación pos2.
+- El paquete obj31 está en la ubicación pos3.
+- El paquete obj32 está en la ubicación pos3.
+- El paquete obj33 está en la ubicación pos3.
+- El camión tru1 está en la ubicación pos1.
+- El camión tru2 está en la ubicación pos2.
+- El camión tru3 está en la ubicación pos3.
+
+Meta:
+- El paquete obj12 debe estar en la ubicación pos2.
+- El paquete obj13 debe estar en el aeropuerto apt3.
+- El paquete obj22 debe estar en la ubicación pos2.
+- El paquete obj23 debe estar en el aeropuerto apt1.
+- El paquete obj31 debe estar en el aeropuerto apt2.
+- El paquete obj32 debe estar en la ubicación pos1.
+- El paquete obj33 debe estar en el aeropuerto apt1.

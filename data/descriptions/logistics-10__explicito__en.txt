@@ -1,0 +1,33 @@
+Objects: cit1, cit2 and cit3 are cities; pos1, pos2 and pos3 are locations; apt1, apt2 and apt3 are airports; tru1, tru2 and tru3 are trucks; apn1 is an airplane; obj11, obj12, obj13, obj21, obj22, obj23, obj31, obj32 and obj33 are packages.
+
+Initial state:
+- The airport apt1 belongs to the city cit1.
+- The airport apt2 belongs to the city cit2.
+- The airport apt3 belongs to the city cit3.
+- The location pos1 belongs to the city cit1.
+- The location pos2 belongs to the city cit2.
+- The location pos3 belongs to the city cit3.
+- The airplane apn1 is at the airport apt2.
+- The package obj11 is at the location pos1.
+- The package obj12 is at the location pos1.
+- The package obj13 is at the location pos1.
+- The package obj21 is at the location pos2.
+- The package obj22 is at the location pos2.
+- The package obj23 is at the location pos2.
+- The package obj31 is at the location pos3.
+- The package obj32 is at the location pos3.
+- The package obj33 is at the location pos3.
+- The truck tru1 is at the location pos1.
+- The truck tru2 is at the location pos2.
+- The truck tru3 is at the location pos3.
+
+Goal:
+- The package obj11 must be at the location pos1.
+- The package obj12 must be at the location pos1.
+- The package obj13 must be at the airport apt3.
+- The package obj21 must be at the airport apt1.
+- The package obj22 must be at the location pos1.
+- The package obj23 must be at the location pos3.
+- The package obj31 must be at the airport apt3.
+- The package obj32 must be at the location pos1.
+- The package obj33 must be at the location pos3.

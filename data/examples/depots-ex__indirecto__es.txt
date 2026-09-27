@@ -1,0 +1,3 @@
+Instalaciones: depot0 (depósito; grúa hoist0, tarima pallet0); distributor0 (distribuidor; grúa hoist1, tarima pallet1); distributor1 (distribuidor; grúa hoist2, tarima pallet2). Sobre la tarima de depot0 está solo crate1. Sobre la tarima de distributor0 está solo crate0. Las demás tarimas están vacías. El camión truck0 está estacionado donde trabaja la grúa hoist2. El camión truck1 está estacionado donde trabaja la grúa hoist0. Ninguna grúa está ocupada.
+
+Se requiere dejar crate0 sobre la tarima de distributor1 y crate1 sobre la tarima de distributor0. No importa dónde terminen las demás cajas ni los camiones.

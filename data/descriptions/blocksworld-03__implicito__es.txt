@@ -1,0 +1,3 @@
+Hay seis bloques: A, B, C, D, E y F. Un brazo robótico puede tomar y sostener un bloque a la vez. Hay una pila formada, de abajo hacia arriba, por C, E, F, B, D y A; C está sobre la mesa. El robot no sostiene ningún bloque.
+
+Al final se debe cumplir lo siguiente: E sobre F, F sobre A, A sobre B, B sobre C y C sobre D.

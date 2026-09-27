@@ -1,0 +1,3 @@
+There are nine blocks: A, B, C, D, E, F, G, H and I. A robot arm can pick up and hold one block at a time. Block C is alone on the table. There is a stack made of, from bottom to top, B, H, D, I, A, E, G and F; B is on the table. The robot is not holding any block.
+
+In the end the following must hold: G on D, D on B, B on C, C on A, A on I, I on F, F on E and E on H.

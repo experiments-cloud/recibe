@@ -1,0 +1,3 @@
+La red tiene cuatro ubicaciones: l1, l2, l3 y l4. Están conectadas en ambos sentidos: l1 con l2, l1 con l4, l2 con l3 y l3 con l4. El hospital está en l3. Hay dos ambulancias vacías: amb1 en l3 y amb2 en l3. Hay que atender a los pacientes p1 y p2 en l2.
+
+Todos los pacientes deben ser llevados al hospital.

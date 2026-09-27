@@ -1,0 +1,3 @@
+Sobre una mesa hay 9 bloques, del A al I (uno por cada letra). Hay una torre en la que, de arriba hacia abajo, están F, G, E, A, I, D, H y B. Todos los demás bloques están sueltos, cada uno directamente sobre la mesa. El brazo está desocupado.
+
+Se quiere formar una torre que, de arriba hacia abajo, tenga G, D, B, C, A, I, F, E y H; no importa sobre qué quede el bloque de más abajo ni dónde terminen los bloques que no se mencionan.

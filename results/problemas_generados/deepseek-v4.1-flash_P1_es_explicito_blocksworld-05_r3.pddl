@@ -1,0 +1,25 @@
+(define (problem blocks-robot)
+  (:domain BLOCKS)
+  (:objects
+    a b c d e f g - block
+  )
+  (:init
+    (ontable d)
+    (on a f)
+    (on b a)
+    (on c d)
+    (on e g)
+    (on f c)
+    (on g b)
+    (clear e)
+    (handempty)
+  )
+  (:goal (and
+    (on a g)
+    (on b c)
+    (on c f)
+    (on d b)
+    (on f e)
+    (on g d)
+  ))
+)

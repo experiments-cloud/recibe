@@ -1,0 +1,25 @@
+Objects: depot0 is a depot; distributor0 and distributor1 are distributors; truck0 and truck1 are trucks; hoist0, hoist1 and hoist2 are hoists; pallet0, pallet1 and pallet2 are pallets; crate0 and crate1 are crates.
+
+Initial state:
+- The crate crate0 is at the distributor distributor0.
+- The crate crate1 is at the depot depot0.
+- The hoist hoist0 is at the depot depot0.
+- The hoist hoist1 is at the distributor distributor0.
+- The hoist hoist2 is at the distributor distributor1.
+- The pallet pallet0 is at the depot depot0.
+- The pallet pallet1 is at the distributor distributor0.
+- The pallet pallet2 is at the distributor distributor1.
+- The truck truck0 is at the distributor distributor1.
+- The truck truck1 is at the depot depot0.
+- The crate crate0 is on the pallet pallet1.
+- The crate crate1 is on the pallet pallet0.
+- The hoist hoist0 is available.
+- The hoist hoist1 is available.
+- The hoist hoist2 is available.
+- The crate crate0 is clear (nothing is on top of it).
+- The crate crate1 is clear (nothing is on top of it).
+- The pallet pallet2 is clear (nothing is on top of it).
+
+Goal:
+- The crate crate0 must be on the pallet pallet2.
+- The crate crate1 must be on the pallet pallet1.

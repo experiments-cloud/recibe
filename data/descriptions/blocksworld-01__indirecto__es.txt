@@ -1,0 +1,3 @@
+Sobre una mesa hay 5 bloques, del A al E (uno por cada letra). Hay una torre en la que, de arriba hacia abajo, están D, E, C, A y B. El brazo está desocupado.
+
+Se quiere formar una torre que, de arriba hacia abajo, tenga D, C, B, E y A; no importa sobre qué quede el bloque de más abajo ni dónde terminen los bloques que no se mencionan.

@@ -1,0 +1,18 @@
+There are six blocks: A, B, C, D, E and F. A robot arm can pick up and hold one block at a time.
+
+Initial state:
+- Block C is on the table.
+- Block A is on block D.
+- Block B is on block F.
+- Block D is on block B.
+- Block E is on block C.
+- Block F is on block E.
+- Block A is clear (nothing is on top of it).
+- The robot's hand is empty.
+
+Goal:
+- Block A must be on block B.
+- Block B must be on block C.
+- Block C must be on block D.
+- Block E must be on block F.
+- Block F must be on block A.

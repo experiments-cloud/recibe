@@ -1,0 +1,14 @@
+Hay cuatro bloques: A, B, C y D. Un brazo robótico puede tomar y sostener un bloque a la vez.
+
+Estado inicial:
+- El bloque D está sobre la mesa.
+- El bloque A está sobre el bloque D.
+- El bloque B está sobre el bloque C.
+- El bloque C está sobre el bloque A.
+- El bloque B está despejado (no tiene nada encima).
+- La mano del robot está vacía.
+
+Meta:
+- El bloque A debe estar sobre el bloque B.
+- El bloque C debe estar sobre el bloque A.
+- El bloque D debe estar sobre el bloque C.

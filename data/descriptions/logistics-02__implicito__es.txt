@@ -1,0 +1,3 @@
+Hay dos ciudades. La ciudad cit1 tiene la ubicación pos1 y el aeropuerto apt1. La ciudad cit2 tiene la ubicación pos2 y el aeropuerto apt2. En el aeropuerto apt1 está el avión apn1. En la ubicación pos1 están el camión tru1 y los paquetes obj11, obj12 y obj13. En la ubicación pos2 están el camión tru2 y los paquetes obj21, obj22 y obj23.
+
+Hay que llevar el paquete obj21 al aeropuerto apt1, el paquete obj12 a la ubicación pos1 y los paquetes obj11 y obj23 a la ubicación pos2.

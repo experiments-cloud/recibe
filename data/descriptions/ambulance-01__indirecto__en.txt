@@ -1,0 +1,3 @@
+The area has locations l1 to l4. Streets are two-way and form these routes, where each dash joins two neighbouring locations: l1–l4–l2–l3–l4. The hospital is at l2. Ambulance amb1 is at l4. No ambulance is carrying patients. There are 4 patients (p1 to p4) waiting to be moved. p2 is at l1. p1 is at l4. All the others are at l3.
+
+Every patient must end up at the hospital; the ambulances may end anywhere.

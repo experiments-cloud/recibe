@@ -1,0 +1,3 @@
+La red tiene seis ubicaciones: l1, l2, l3, l4, l5 y l6. Están conectadas en ambos sentidos: l1 con l3, l1 con l4, l1 con l5, l1 con l6, l2 con l5, l3 con l6 y l5 con l6. El hospital está en l3. Hay dos ambulancias vacías: amb1 en l4 y amb2 en l1. Hay que atender al paciente p1 en l1, al paciente p3 en l5 y al paciente p2 en l6.
+
+Todos los pacientes deben ser llevados al hospital.

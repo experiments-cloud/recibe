@@ -1,0 +1,3 @@
+Hay nueve bloques: A, B, C, D, E, F, G, H y I. Un brazo robótico puede tomar y sostener un bloque a la vez. El bloque C está solo sobre la mesa. Hay una pila formada, de abajo hacia arriba, por B, H, D, I, A, E, G y F; B está sobre la mesa. El robot no sostiene ningún bloque.
+
+Al final se debe cumplir lo siguiente: G sobre D, D sobre B, B sobre C, C sobre A, A sobre I, I sobre F, F sobre E y E sobre H.

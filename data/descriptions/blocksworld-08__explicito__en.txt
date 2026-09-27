@@ -1,0 +1,24 @@
+There are nine blocks: A, B, C, D, E, F, G, H and I. A robot arm can pick up and hold one block at a time.
+
+Initial state:
+- Block A is on the table.
+- Block B is on block D.
+- Block C is on block I.
+- Block D is on block C.
+- Block E is on block B.
+- Block F is on block E.
+- Block G is on block H.
+- Block H is on block A.
+- Block I is on block G.
+- Block F is clear (nothing is on top of it).
+- The robot's hand is empty.
+
+Goal:
+- Block A must be on block B.
+- Block B must be on block H.
+- Block D must be on block I.
+- Block E must be on block C.
+- Block F must be on block E.
+- Block G must be on block F.
+- Block H must be on block G.
+- Block I must be on block A.

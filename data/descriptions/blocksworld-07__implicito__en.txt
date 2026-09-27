@@ -1,0 +1,3 @@
+There are seven blocks: A, B, C, D, E, F and G. A robot arm can pick up and hold one block at a time. There is a stack made of, from bottom to top, D and A; D is on the table. There is a stack made of, from bottom to top, F, E, G, C and B; F is on the table. The robot is not holding any block.
+
+In the end the following must hold: E on B, B on F, F on D, D on A, A on C and C on G.

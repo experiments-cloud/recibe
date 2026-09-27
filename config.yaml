@@ -1,0 +1,44 @@
+# Configuración del experimento.
+# Las claves de API se leen de las variables de entorno indicadas en api_key_env.
+
+repeticiones: 3
+prompts: [P0, P1]          # P0 sin ejemplo, P1 con un ejemplo resuelto
+idiomas: [es, en]
+estilos: [explicito, implicito, indirecto]
+dominios: [blocksworld, logistics, depots, ambulance]
+
+# Herramientas (rutas relativas a este archivo)
+fast_downward: ../tools/downward/fast-downward.py
+fd_alias: lama-first
+fd_tiempo_limite_s: 300
+val: ../tools/VAL/build/bin/Validate
+
+# temperatura: null usa el valor por defecto de cada proveedor
+temperatura: null
+max_tokens: 8000
+
+modelos:
+  - etiqueta: gemini-3.8-flash
+    provider: gemini
+    model: gemini-3.8-flash
+    api_key_env: GEMINI_API_KEY
+
+  - etiqueta: gpt-6-luna
+    provider: openai_compat
+    base_url: https://openrouter.ai/api/v1
+    api_key_env: OPENROUTER_API_KEY
+    model: openai/gpt-6-luna
+    max_tokens: 16000      # modelo con razonamiento
+
+  - etiqueta: deepseek-v4.1-flash
+    provider: openai_compat
+    base_url: https://openrouter.ai/api/v1
+    api_key_env: OPENROUTER_API_KEY
+    model: deepseek/deepseek-v4.1-flash
+    max_tokens: 16000      # modelo con razonamiento
+
+  - etiqueta: mistral-small-4
+    provider: openai_compat
+    base_url: https://openrouter.ai/api/v1
+    api_key_env: OPENROUTER_API_KEY
+    model: mistralai/mistral-small-2603

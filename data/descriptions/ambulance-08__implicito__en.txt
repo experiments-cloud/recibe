@@ -1,0 +1,3 @@
+The network has seven locations: l1, l2, l3, l4, l5, l6 and l7. The following are connected in both directions: l1 with l5, l1 with l6, l2 with l5, l2 with l7, l3 with l6 and l4 with l5. The hospital is at l4. There are two empty ambulances: amb1 at l4 and amb2 at l6. Help is needed for patient p3 at l1, patient p1 at l2 and patient p2 at l6.
+
+All patients must be taken to the hospital.

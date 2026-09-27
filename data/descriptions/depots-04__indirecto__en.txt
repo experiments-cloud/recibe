@@ -1,0 +1,3 @@
+Facilities: depot0 (depot; hoist hoist0, pallet pallet0); distributor0 (distributor; hoist hoist1, pallet pallet1, pallet3 and pallet4); distributor1 (distributor; hoist hoist2, pallet pallet2 and pallet5). On the pallet of depot0 there is only crate5. On pallet4 there are stacked, from top to bottom, crate4 and crate0. On pallet2 there are stacked, from top to bottom, crate3 and crate2. On pallet5 there is only crate1. The remaining pallets are empty. Truck truck0 is parked where hoist hoist2 works. Truck truck1 is parked where hoist hoist0 works. No hoist is busy.
+
+It is required to leave crate0 on pallet3, crate1 on crate4, crate3 on pallet1, crate4 on pallet5 and crate5 on crate1. It does not matter where the other crates or the trucks end up.

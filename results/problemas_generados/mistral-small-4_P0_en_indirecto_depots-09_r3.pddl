@@ -1,0 +1,38 @@
+(define (problem DepotProblem)
+(:domain Depot)
+(:objects
+    depot0 depot1 depot2 distributor0 distributor1 distributor2 - depot
+    hoist0 hoist1 hoist2 hoist3 hoist4 hoist5 - hoist
+    pallet0 pallet1 pallet2 pallet3 pallet4 pallet5 - pallet
+    crate0 crate1 crate2 crate3 crate4 crate5 crate6 crate7 crate8 crate9 - crate
+    truck0 truck1 - truck
+)
+(:init
+    (at hoist0 depot0) (at pallet0 depot0) (at crate1 pallet0) (on crate1 pallet0) (clear crate1)
+    (at hoist1 depot1) (at pallet1 depot1) (at crate3 pallet1) (on crate3 pallet1)
+    (at crate0 pallet1) (on crate0 crate3) (clear crate0)
+    (at hoist2 depot2) (at pallet2 depot2) (at crate9 pallet2) (on crate9 pallet2)
+    (at crate5 pallet2) (on crate5 crate9) (clear crate5)
+    (at crate4 pallet2) (on crate4 crate5)
+    (at crate2 pallet2) (on crate2 crate4)
+    (at hoist3 distributor0) (at pallet3 distributor0) (clear pallet3)
+    (at hoist4 distributor1) (at pallet4 distributor1) (clear pallet4)
+    (at hoist5 distributor2) (at pallet5 distributor2) (at crate8 pallet5) (on crate8 pallet5)
+    (at crate7 pallet5) (on crate7 crate8) (clear crate7)
+    (at crate6 crate7) (clear crate6)
+    (at truck0 depot2) (at truck1 distributor0)
+    (available hoist0) (available hoist1) (available hoist2) (available hoist3) (available hoist4) (available hoist5)
+)
+(:goal (and
+    (on crate0 crate7)
+    (on crate1 pallet4)
+    (on crate2 pallet5)
+    (on crate3 crate9)
+    (on crate4 pallet0)
+    (on crate5 pallet2)
+    (on crate6 crate5)
+    (on crate7 crate1)
+    (on crate8 pallet3)
+    (on crate9 crate2)
+))
+)

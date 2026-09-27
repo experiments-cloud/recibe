@@ -1,0 +1,3 @@
+La zona tiene las ubicaciones l1 a l5. Las calles son de doble sentido y forman estas rutas, donde cada guion une dos ubicaciones vecinas: l2–l4–l1–l5–l4–l3. El hospital está en l2. La ambulancia amb1 espera en el hospital. Ninguna ambulancia lleva pacientes. Hay 2 pacientes (p1 y p2) esperando traslado. p2 está en l4. Todos los demás están en l1.
+
+Cada paciente debe terminar en el hospital; las ambulancias pueden terminar en cualquier lugar.

@@ -1,0 +1,3 @@
+En el depósito depot0 están la grúa hoist0, el camión truck1 y la tarima pallet0 con la caja crate1 encima. En el distribuidor distributor0 están la grúa hoist1 y la tarima pallet1 con la caja crate0 encima. En el distribuidor distributor1 están la grúa hoist2, el camión truck0 y la tarima pallet2, que está vacía. Todas las grúas están libres.
+
+Al final se debe cumplir lo siguiente: crate0 sobre pallet2 y crate1 sobre pallet1.

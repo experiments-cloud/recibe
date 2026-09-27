@@ -1,0 +1,3 @@
+There are four blocks: A, B, C and D. A robot arm can pick up and hold one block at a time. Blocks A and D are each alone on the table. There is a stack made of, from bottom to top, B and C; B is on the table. The robot is not holding any block.
+
+In the end the following must hold: A on B, B on C and C on D.

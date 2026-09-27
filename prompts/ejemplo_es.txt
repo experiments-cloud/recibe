@@ -1,0 +1,7 @@
+
+Ejemplo de otra descripción del mismo dominio y su problema PDDL correcto:
+
+Descripción:
+{EJ_DESCRIPCION}
+[INICIO_PROBLEMA]
+{EJ_PROBLEMA}[FIN_PROBLEMA]

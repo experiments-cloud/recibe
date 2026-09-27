@@ -1,0 +1,47 @@
+Objetos: depot0, depot1 y depot2 son depósitos; distributor0, distributor1 y distributor2 son distribuidores; truck0 y truck1 son camiones; hoist0, hoist1, hoist2, hoist3, hoist4 y hoist5 son grúas; pallet0, pallet1, pallet2, pallet3, pallet4 y pallet5 son tarimas; crate0, crate1, crate2, crate3, crate4 y crate5 son cajas.
+
+Estado inicial:
+- La caja crate0 está en el depósito depot1.
+- La caja crate1 está en el depósito depot0.
+- La caja crate2 está en el distribuidor distributor2.
+- La caja crate3 está en el distribuidor distributor2.
+- La caja crate4 está en el depósito depot2.
+- La caja crate5 está en el distribuidor distributor0.
+- La grúa hoist0 está en el depósito depot0.
+- La grúa hoist1 está en el depósito depot1.
+- La grúa hoist2 está en el depósito depot2.
+- La grúa hoist3 está en el distribuidor distributor0.
+- La grúa hoist4 está en el distribuidor distributor1.
+- La grúa hoist5 está en el distribuidor distributor2.
+- La tarima pallet0 está en el depósito depot0.
+- La tarima pallet1 está en el depósito depot1.
+- La tarima pallet2 está en el depósito depot2.
+- La tarima pallet3 está en el distribuidor distributor0.
+- La tarima pallet4 está en el distribuidor distributor1.
+- La tarima pallet5 está en el distribuidor distributor2.
+- El camión truck0 está en el depósito depot1.
+- El camión truck1 está en el depósito depot2.
+- La caja crate0 está sobre la tarima pallet1.
+- La caja crate1 está sobre la tarima pallet0.
+- La caja crate2 está sobre la tarima pallet5.
+- La caja crate3 está sobre la caja crate2.
+- La caja crate4 está sobre la tarima pallet2.
+- La caja crate5 está sobre la tarima pallet3.
+- La grúa hoist0 está disponible.
+- La grúa hoist1 está disponible.
+- La grúa hoist2 está disponible.
+- La grúa hoist3 está disponible.
+- La grúa hoist4 está disponible.
+- La grúa hoist5 está disponible.
+- La caja crate0 está despejada (no tiene nada encima).
+- La caja crate1 está despejada (no tiene nada encima).
+- La caja crate3 está despejada (no tiene nada encima).
+- La caja crate4 está despejada (no tiene nada encima).
+- La caja crate5 está despejada (no tiene nada encima).
+- La tarima pallet4 está despejada (no tiene nada encima).
+
+Meta:
+- La caja crate0 debe estar sobre la caja crate4.
+- La caja crate2 debe estar sobre la tarima pallet3.
+- La caja crate3 debe estar sobre la tarima pallet0.
+- La caja crate4 debe estar sobre la tarima pallet5.

@@ -1,0 +1,22 @@
+Objects: l1, l2, l3 and l4 are locations; amb1 and amb2 are ambulances; p1 and p2 are patients.
+
+Initial state:
+- There is a direct connection from l1 to l2.
+- There is a direct connection from l1 to l4.
+- There is a direct connection from l2 to l1.
+- There is a direct connection from l2 to l3.
+- There is a direct connection from l3 to l2.
+- There is a direct connection from l3 to l4.
+- There is a direct connection from l4 to l1.
+- There is a direct connection from l4 to l3.
+- There is a hospital at l3.
+- Ambulance amb1 is at l3.
+- Ambulance amb2 is at l3.
+- Ambulance amb1 is empty.
+- Ambulance amb2 is empty.
+- Patient p1 is at l2.
+- Patient p2 is at l2.
+
+Goal:
+- Patient p1 must be at l3.
+- Patient p2 must be at l3.

@@ -1,0 +1,3 @@
+Sobre una mesa hay 6 bloques, del A al F (uno por cada letra). Hay una torre en la que, de arriba hacia abajo, están F, E y B. Hay una torre en la que, de arriba hacia abajo, están D, A y C. El brazo está desocupado.
+
+Se quiere formar una torre que, de arriba hacia abajo, tenga C, B, A, E, F y D; no importa sobre qué quede el bloque de más abajo ni dónde terminen los bloques que no se mencionan.

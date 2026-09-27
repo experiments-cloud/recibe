@@ -1,0 +1,3 @@
+Sobre una mesa hay 4 bloques, del A al D (uno por cada letra). Hay una torre en la que, de arriba hacia abajo, están C y B. Todos los demás bloques están sueltos, cada uno directamente sobre la mesa. El brazo está desocupado.
+
+Se quiere formar una torre que, de arriba hacia abajo, tenga A, B, C y D; no importa sobre qué quede el bloque de más abajo ni dónde terminen los bloques que no se mencionan.

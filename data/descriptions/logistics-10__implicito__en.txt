@@ -1,0 +1,3 @@
+There are three cities. City cit1 has the location pos1 and the airport apt1. City cit2 has the location pos2 and the airport apt2. City cit3 has the location pos3 and the airport apt3. At airport apt2 there is the airplane apn1. At location pos1 there are the truck tru1 and the packages obj11, obj12 and obj13. At location pos2 there are the truck tru2 and the packages obj21, obj22 and obj23. At location pos3 there are the truck tru3 and the packages obj31, obj32 and obj33.
+
+The task is to bring the package obj21 to the airport apt1, the packages obj13 and obj31 to the airport apt3, the packages obj11, obj12, obj22 and obj32 to the location pos1 and the packages obj23 and obj33 to the location pos3.

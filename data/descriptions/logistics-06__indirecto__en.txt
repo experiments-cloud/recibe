@@ -1,0 +1,3 @@
+The delivery network covers these cities and their places: cit1 (the city location pos1 and the airport apt1); cit2 (the city location pos2 and the airport apt2). Trucks: tru1 is at the city location of cit1; tru2 is at the city location of cit2. Airplanes: apn1 is at the airport of cit1. The packages are placed as follows: obj11 to obj13 at the city location of cit1; obj21 to obj23 at the city location of cit2.
+
+Order: deliver obj23 to the airport of cit1; obj11, obj12 and obj21 to the airport of cit2; obj13 and obj22 to the city location of cit2. The remaining packages may end up anywhere.

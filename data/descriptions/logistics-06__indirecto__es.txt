@@ -1,0 +1,3 @@
+La red de reparto abarca estas ciudades con sus lugares: cit1 (la ubicación urbana pos1 y el aeropuerto apt1); cit2 (la ubicación urbana pos2 y el aeropuerto apt2). Camiones: tru1 está en la ubicación urbana de cit1; tru2 está en la ubicación urbana de cit2. Aviones: apn1 está en el aeropuerto de cit1. Los paquetes están así: obj11 a obj13 en la ubicación urbana de cit1; obj21 a obj23 en la ubicación urbana de cit2.
+
+Pedido: hay que entregar obj23 al aeropuerto de cit1; obj11, obj12 y obj21 al aeropuerto de cit2; obj13 y obj22 a la ubicación urbana de cit2. Los demás paquetes pueden quedar donde sea.

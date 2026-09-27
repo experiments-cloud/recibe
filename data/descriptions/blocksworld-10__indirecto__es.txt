@@ -1,0 +1,3 @@
+Sobre una mesa hay 8 bloques, del A al H (uno por cada letra). Hay una torre en la que, de arriba hacia abajo, están A, G y E. Hay una torre en la que, de arriba hacia abajo, están D, H y F. Todos los demás bloques están sueltos, cada uno directamente sobre la mesa. El brazo está desocupado.
+
+Se quiere formar una torre que, de arriba hacia abajo, tenga D, F, E, H, C, A, G y B; no importa sobre qué quede el bloque de más abajo ni dónde terminen los bloques que no se mencionan.

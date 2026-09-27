@@ -1,0 +1,7 @@
+
+Example of another description in the same domain and its correct PDDL problem:
+
+Description:
+{EJ_DESCRIPCION}
+[BEGIN_PROBLEM]
+{EJ_PROBLEMA}[END_PROBLEM]

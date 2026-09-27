@@ -1,0 +1,25 @@
+Hay nueve bloques: A, B, C, D, E, F, G, H y I. Un brazo robótico puede tomar y sostener un bloque a la vez.
+
+Estado inicial:
+- El bloque B está sobre la mesa.
+- El bloque C está sobre la mesa.
+- El bloque A está sobre el bloque I.
+- El bloque D está sobre el bloque H.
+- El bloque E está sobre el bloque A.
+- El bloque F está sobre el bloque G.
+- El bloque G está sobre el bloque E.
+- El bloque H está sobre el bloque B.
+- El bloque I está sobre el bloque D.
+- El bloque C está despejado (no tiene nada encima).
+- El bloque F está despejado (no tiene nada encima).
+- La mano del robot está vacía.
+
+Meta:
+- El bloque A debe estar sobre el bloque I.
+- El bloque B debe estar sobre el bloque C.
+- El bloque C debe estar sobre el bloque A.
+- El bloque D debe estar sobre el bloque B.
+- El bloque E debe estar sobre el bloque H.
+- El bloque F debe estar sobre el bloque E.
+- El bloque G debe estar sobre el bloque D.
+- El bloque I debe estar sobre el bloque F.

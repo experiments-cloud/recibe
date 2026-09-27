@@ -1,0 +1,49 @@
+Objects: depot0 is a depot; distributor0 and distributor1 are distributors; truck0 and truck1 are trucks; hoist0, hoist1 and hoist2 are hoists; pallet0, pallet1 and pallet2 are pallets; crate0, crate1, crate2, crate3, crate4, crate5, crate6, crate7, crate8 and crate9 are crates.
+
+Initial state:
+- The crate crate0 is at the distributor distributor1.
+- The crate crate1 is at the depot depot0.
+- The crate crate2 is at the distributor distributor1.
+- The crate crate3 is at the depot depot0.
+- The crate crate4 is at the depot depot0.
+- The crate crate5 is at the distributor distributor1.
+- The crate crate6 is at the distributor distributor0.
+- The crate crate7 is at the distributor distributor0.
+- The crate crate8 is at the distributor distributor0.
+- The crate crate9 is at the distributor distributor1.
+- The hoist hoist0 is at the depot depot0.
+- The hoist hoist1 is at the distributor distributor0.
+- The hoist hoist2 is at the distributor distributor1.
+- The pallet pallet0 is at the depot depot0.
+- The pallet pallet1 is at the distributor distributor0.
+- The pallet pallet2 is at the distributor distributor1.
+- The truck truck0 is at the depot depot0.
+- The truck truck1 is at the distributor distributor0.
+- The crate crate0 is on the pallet pallet2.
+- The crate crate1 is on the pallet pallet0.
+- The crate crate2 is on the crate crate0.
+- The crate crate3 is on the crate crate1.
+- The crate crate4 is on the crate crate3.
+- The crate crate5 is on the crate crate2.
+- The crate crate6 is on the pallet pallet1.
+- The crate crate7 is on the crate crate6.
+- The crate crate8 is on the crate crate7.
+- The crate crate9 is on the crate crate5.
+- The hoist hoist0 is available.
+- The hoist hoist1 is available.
+- The hoist hoist2 is available.
+- The crate crate4 is clear (nothing is on top of it).
+- The crate crate8 is clear (nothing is on top of it).
+- The crate crate9 is clear (nothing is on top of it).
+
+Goal:
+- The crate crate0 must be on the crate crate5.
+- The crate crate1 must be on the pallet pallet1.
+- The crate crate2 must be on the crate crate0.
+- The crate crate3 must be on the pallet pallet2.
+- The crate crate4 must be on the crate crate6.
+- The crate crate5 must be on the crate crate4.
+- The crate crate6 must be on the crate crate9.
+- The crate crate7 must be on the crate crate1.
+- The crate crate8 must be on the crate crate3.
+- The crate crate9 must be on the pallet pallet0.

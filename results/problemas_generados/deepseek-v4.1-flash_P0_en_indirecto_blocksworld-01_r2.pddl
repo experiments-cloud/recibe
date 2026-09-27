@@ -1,0 +1,21 @@
+(define (problem blocks-tower)
+  (:domain BLOCKS)
+  (:objects a b c d e - block)
+  (:init
+    (ontable b)
+    (on d e)
+    (on e c)
+    (on c a)
+    (on a b)
+    (clear d)
+    (handempty)
+  )
+  (:goal
+    (and
+      (on d c)
+      (on c b)
+      (on b e)
+      (on e a)
+    )
+  )
+)

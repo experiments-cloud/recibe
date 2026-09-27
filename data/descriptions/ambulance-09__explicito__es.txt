@@ -1,0 +1,32 @@
+Objetos: l1, l2, l3, l4, l5 y l6 son ubicaciones; amb1 y amb2 son ambulancias; p1, p2, p3 y p4 son pacientes.
+
+Estado inicial:
+- Hay conexión directa de l1 hacia l6.
+- Hay conexión directa de l2 hacia l3.
+- Hay conexión directa de l2 hacia l4.
+- Hay conexión directa de l2 hacia l5.
+- Hay conexión directa de l3 hacia l2.
+- Hay conexión directa de l3 hacia l6.
+- Hay conexión directa de l4 hacia l2.
+- Hay conexión directa de l4 hacia l6.
+- Hay conexión directa de l5 hacia l2.
+- Hay conexión directa de l5 hacia l6.
+- Hay conexión directa de l6 hacia l1.
+- Hay conexión directa de l6 hacia l3.
+- Hay conexión directa de l6 hacia l4.
+- Hay conexión directa de l6 hacia l5.
+- En l4 hay un hospital.
+- La ambulancia amb1 está en l5.
+- La ambulancia amb2 está en l3.
+- La ambulancia amb1 está vacía.
+- La ambulancia amb2 está vacía.
+- El paciente p1 está en l3.
+- El paciente p2 está en l3.
+- El paciente p3 está en l5.
+- El paciente p4 está en l5.
+
+Meta:
+- El paciente p1 debe estar en l4.
+- El paciente p2 debe estar en l4.
+- El paciente p3 debe estar en l4.
+- El paciente p4 debe estar en l4.

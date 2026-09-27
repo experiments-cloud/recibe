@@ -1,0 +1,57 @@
+Objects: depot0, depot1 and depot2 are depots; distributor0, distributor1 and distributor2 are distributors; truck0 and truck1 are trucks; hoist0, hoist1, hoist2, hoist3, hoist4 and hoist5 are hoists; pallet0, pallet1, pallet2, pallet3, pallet4, pallet5, pallet6, pallet7, pallet8 and pallet9 are pallets; crate0, crate1, crate2, crate3, crate4 and crate5 are crates.
+
+Initial state:
+- The crate crate0 is at the depot depot2.
+- The crate crate1 is at the depot depot2.
+- The crate crate2 is at the depot depot0.
+- The crate crate3 is at the depot depot0.
+- The crate crate4 is at the distributor distributor0.
+- The crate crate5 is at the depot depot2.
+- The hoist hoist0 is at the depot depot0.
+- The hoist hoist1 is at the depot depot1.
+- The hoist hoist2 is at the depot depot2.
+- The hoist hoist3 is at the distributor distributor0.
+- The hoist hoist4 is at the distributor distributor1.
+- The hoist hoist5 is at the distributor distributor2.
+- The pallet pallet0 is at the depot depot0.
+- The pallet pallet1 is at the depot depot1.
+- The pallet pallet2 is at the depot depot2.
+- The pallet pallet3 is at the distributor distributor0.
+- The pallet pallet4 is at the distributor distributor1.
+- The pallet pallet5 is at the distributor distributor2.
+- The pallet pallet6 is at the distributor distributor1.
+- The pallet pallet7 is at the depot depot0.
+- The pallet pallet8 is at the depot depot0.
+- The pallet pallet9 is at the distributor distributor0.
+- The truck truck0 is at the distributor distributor1.
+- The truck truck1 is at the depot depot0.
+- The crate crate0 is on the pallet pallet2.
+- The crate crate1 is on the crate crate0.
+- The crate crate2 is on the pallet pallet0.
+- The crate crate3 is on the pallet pallet8.
+- The crate crate4 is on the pallet pallet3.
+- The crate crate5 is on the crate crate1.
+- The hoist hoist0 is available.
+- The hoist hoist1 is available.
+- The hoist hoist2 is available.
+- The hoist hoist3 is available.
+- The hoist hoist4 is available.
+- The hoist hoist5 is available.
+- The crate crate2 is clear (nothing is on top of it).
+- The crate crate3 is clear (nothing is on top of it).
+- The crate crate4 is clear (nothing is on top of it).
+- The crate crate5 is clear (nothing is on top of it).
+- The pallet pallet1 is clear (nothing is on top of it).
+- The pallet pallet4 is clear (nothing is on top of it).
+- The pallet pallet5 is clear (nothing is on top of it).
+- The pallet pallet6 is clear (nothing is on top of it).
+- The pallet pallet7 is clear (nothing is on top of it).
+- The pallet pallet9 is clear (nothing is on top of it).
+
+Goal:
+- The crate crate0 must be on the pallet pallet0.
+- The crate crate1 must be on the pallet pallet5.
+- The crate crate2 must be on the pallet pallet4.
+- The crate crate3 must be on the pallet pallet7.
+- The crate crate4 must be on the pallet pallet9.
+- The crate crate5 must be on the pallet pallet1.

@@ -1,0 +1,14 @@
+There are four blocks: A, B, C and D. A robot arm can pick up and hold one block at a time.
+
+Initial state:
+- Block D is on the table.
+- Block A is on block D.
+- Block B is on block C.
+- Block C is on block A.
+- Block B is clear (nothing is on top of it).
+- The robot's hand is empty.
+
+Goal:
+- Block A must be on block B.
+- Block C must be on block A.
+- Block D must be on block C.

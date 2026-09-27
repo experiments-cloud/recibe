@@ -1,0 +1,3 @@
+At the depot depot0 there are the hoist hoist0, the truck truck0 and pallet pallet0 with a stack of crates on it made of, from bottom to top, crate1, crate3 and crate4. At the distributor distributor0 there are the hoist hoist1, the truck truck1 and pallet pallet1 with a stack of crates on it made of, from bottom to top, crate6, crate7 and crate8. At the distributor distributor1 there are the hoist hoist2 and pallet pallet2 with a stack of crates on it made of, from bottom to top, crate0, crate2, crate5 and crate9. All hoists are free.
+
+In the end the following must hold: crate0 on crate5, crate1 on pallet1, crate2 on crate0, crate3 on pallet2, crate4 on crate6, crate5 on crate4, crate6 on crate9, crate7 on crate1, crate8 on crate3 and crate9 on pallet0.

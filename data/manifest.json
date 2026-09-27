@@ -1,0 +1,398 @@
+[
+  {
+    "id": "blocksworld-ex",
+    "domain": "blocksworld",
+    "source": "ipc-2000/domains/blocks-strips-typed/instances/instance-2.pddl",
+    "role": "example",
+    "n_objects": 4,
+    "n_init": 6,
+    "n_goal": 3
+  },
+  {
+    "id": "blocksworld-01",
+    "domain": "blocksworld",
+    "source": "ipc-2000/domains/blocks-strips-typed/instances/instance-6.pddl",
+    "role": "test",
+    "n_objects": 5,
+    "n_init": 7,
+    "n_goal": 4
+  },
+  {
+    "id": "blocksworld-02",
+    "domain": "blocksworld",
+    "source": "ipc-2000/domains/blocks-strips-typed/instances/instance-3.pddl",
+    "role": "test",
+    "n_objects": 4,
+    "n_init": 8,
+    "n_goal": 3
+  },
+  {
+    "id": "blocksworld-03",
+    "domain": "blocksworld",
+    "source": "ipc-2000/domains/blocks-strips-typed/instances/instance-9.pddl",
+    "role": "test",
+    "n_objects": 6,
+    "n_init": 8,
+    "n_goal": 5
+  },
+  {
+    "id": "blocksworld-04",
+    "domain": "blocksworld",
+    "source": "ipc-2000/domains/blocks-strips-typed/instances/instance-1.pddl",
+    "role": "test",
+    "n_objects": 4,
+    "n_init": 9,
+    "n_goal": 3
+  },
+  {
+    "id": "blocksworld-05",
+    "domain": "blocksworld",
+    "source": "ipc-2000/domains/blocks-strips-typed/instances/instance-10.pddl",
+    "role": "test",
+    "n_objects": 7,
+    "n_init": 9,
+    "n_goal": 6
+  },
+  {
+    "id": "blocksworld-06",
+    "domain": "blocksworld",
+    "source": "ipc-2000/domains/blocks-strips-typed/instances/instance-7.pddl",
+    "role": "test",
+    "n_objects": 6,
+    "n_init": 9,
+    "n_goal": 5
+  },
+  {
+    "id": "blocksworld-07",
+    "domain": "blocksworld",
+    "source": "ipc-2000/domains/blocks-strips-typed/instances/instance-12.pddl",
+    "role": "test",
+    "n_objects": 7,
+    "n_init": 10,
+    "n_goal": 6
+  },
+  {
+    "id": "blocksworld-08",
+    "domain": "blocksworld",
+    "source": "ipc-2000/domains/blocks-strips-typed/instances/instance-17.pddl",
+    "role": "test",
+    "n_objects": 9,
+    "n_init": 11,
+    "n_goal": 8
+  },
+  {
+    "id": "blocksworld-09",
+    "domain": "blocksworld",
+    "source": "ipc-2000/domains/blocks-strips-typed/instances/instance-16.pddl",
+    "role": "test",
+    "n_objects": 9,
+    "n_init": 12,
+    "n_goal": 8
+  },
+  {
+    "id": "blocksworld-10",
+    "domain": "blocksworld",
+    "source": "ipc-2000/domains/blocks-strips-typed/instances/instance-13.pddl",
+    "role": "test",
+    "n_objects": 8,
+    "n_init": 13,
+    "n_goal": 7
+  },
+  {
+    "id": "logistics-ex",
+    "domain": "logistics",
+    "source": "ipc-2000/domains/logistics-strips-typed/instances/instance-1.pddl",
+    "role": "example",
+    "n_objects": 15,
+    "n_init": 13,
+    "n_goal": 4
+  },
+  {
+    "id": "logistics-01",
+    "domain": "logistics",
+    "source": "ipc-2000/domains/logistics-strips-typed/instances/instance-2.pddl",
+    "role": "test",
+    "n_objects": 15,
+    "n_init": 13,
+    "n_goal": 4
+  },
+  {
+    "id": "logistics-02",
+    "domain": "logistics",
+    "source": "ipc-2000/domains/logistics-strips-typed/instances/instance-3.pddl",
+    "role": "test",
+    "n_objects": 15,
+    "n_init": 13,
+    "n_goal": 4
+  },
+  {
+    "id": "logistics-03",
+    "domain": "logistics",
+    "source": "ipc-2000/domains/logistics-strips-typed/instances/instance-4.pddl",
+    "role": "test",
+    "n_objects": 15,
+    "n_init": 13,
+    "n_goal": 5
+  },
+  {
+    "id": "logistics-04",
+    "domain": "logistics",
+    "source": "ipc-2000/domains/logistics-strips-typed/instances/instance-5.pddl",
+    "role": "test",
+    "n_objects": 15,
+    "n_init": 13,
+    "n_goal": 5
+  },
+  {
+    "id": "logistics-05",
+    "domain": "logistics",
+    "source": "ipc-2000/domains/logistics-strips-typed/instances/instance-6.pddl",
+    "role": "test",
+    "n_objects": 15,
+    "n_init": 13,
+    "n_goal": 5
+  },
+  {
+    "id": "logistics-06",
+    "domain": "logistics",
+    "source": "ipc-2000/domains/logistics-strips-typed/instances/instance-7.pddl",
+    "role": "test",
+    "n_objects": 15,
+    "n_init": 13,
+    "n_goal": 6
+  },
+  {
+    "id": "logistics-07",
+    "domain": "logistics",
+    "source": "ipc-2000/domains/logistics-strips-typed/instances/instance-8.pddl",
+    "role": "test",
+    "n_objects": 15,
+    "n_init": 13,
+    "n_goal": 6
+  },
+  {
+    "id": "logistics-08",
+    "domain": "logistics",
+    "source": "ipc-2000/domains/logistics-strips-typed/instances/instance-11.pddl",
+    "role": "test",
+    "n_objects": 22,
+    "n_init": 19,
+    "n_goal": 7
+  },
+  {
+    "id": "logistics-09",
+    "domain": "logistics",
+    "source": "ipc-2000/domains/logistics-strips-typed/instances/instance-13.pddl",
+    "role": "test",
+    "n_objects": 22,
+    "n_init": 19,
+    "n_goal": 8
+  },
+  {
+    "id": "logistics-10",
+    "domain": "logistics",
+    "source": "ipc-2000/domains/logistics-strips-typed/instances/instance-15.pddl",
+    "role": "test",
+    "n_objects": 22,
+    "n_init": 19,
+    "n_goal": 9
+  },
+  {
+    "id": "depots-ex",
+    "domain": "depots",
+    "source": "ipc-2002/domains/depots-strips-automatic/instances/instance-1.pddl",
+    "role": "example",
+    "n_objects": 13,
+    "n_init": 18,
+    "n_goal": 2
+  },
+  {
+    "id": "depots-01",
+    "domain": "depots",
+    "source": "ipc-2002/domains/depots-strips-automatic/instances/instance-2.pddl",
+    "role": "test",
+    "n_objects": 15,
+    "n_init": 22,
+    "n_goal": 4
+  },
+  {
+    "id": "depots-02",
+    "domain": "depots",
+    "source": "ipc-2002/domains/depots-strips-automatic/instances/instance-3.pddl",
+    "role": "test",
+    "n_objects": 17,
+    "n_init": 26,
+    "n_goal": 6
+  },
+  {
+    "id": "depots-03",
+    "domain": "depots",
+    "source": "ipc-2002/domains/depots-strips-automatic/instances/instance-4.pddl",
+    "role": "test",
+    "n_objects": 19,
+    "n_init": 30,
+    "n_goal": 6
+  },
+  {
+    "id": "depots-04",
+    "domain": "depots",
+    "source": "ipc-2002/domains/depots-strips-automatic/instances/instance-7.pddl",
+    "role": "test",
+    "n_objects": 20,
+    "n_init": 32,
+    "n_goal": 5
+  },
+  {
+    "id": "depots-05",
+    "domain": "depots",
+    "source": "ipc-2002/domains/depots-strips-automatic/instances/instance-5.pddl",
+    "role": "test",
+    "n_objects": 21,
+    "n_init": 34,
+    "n_goal": 10
+  },
+  {
+    "id": "depots-06",
+    "domain": "depots",
+    "source": "ipc-2002/domains/depots-strips-automatic/instances/instance-10.pddl",
+    "role": "test",
+    "n_objects": 26,
+    "n_init": 38,
+    "n_goal": 4
+  },
+  {
+    "id": "depots-07",
+    "domain": "depots",
+    "source": "ipc-2002/domains/depots-strips-automatic/instances/instance-8.pddl",
+    "role": "test",
+    "n_objects": 24,
+    "n_init": 40,
+    "n_goal": 7
+  },
+  {
+    "id": "depots-08",
+    "domain": "depots",
+    "source": "ipc-2002/domains/depots-strips-automatic/instances/instance-6.pddl",
+    "role": "test",
+    "n_objects": 26,
+    "n_init": 44,
+    "n_goal": 11
+  },
+  {
+    "id": "depots-09",
+    "domain": "depots",
+    "source": "ipc-2002/domains/depots-strips-automatic/instances/instance-11.pddl",
+    "role": "test",
+    "n_objects": 30,
+    "n_init": 46,
+    "n_goal": 10
+  },
+  {
+    "id": "depots-10",
+    "domain": "depots",
+    "source": "ipc-2002/domains/depots-strips-automatic/instances/instance-13.pddl",
+    "role": "test",
+    "n_objects": 30,
+    "n_init": 46,
+    "n_goal": 6
+  },
+  {
+    "id": "ambulance-ex",
+    "domain": "ambulance",
+    "source": "generado (semilla 2026, índice 0)",
+    "role": "example",
+    "n_objects": 9,
+    "n_init": 13,
+    "n_goal": 4
+  },
+  {
+    "id": "ambulance-01",
+    "domain": "ambulance",
+    "source": "generado (semilla 2026, índice 1)",
+    "role": "test",
+    "n_objects": 9,
+    "n_init": 15,
+    "n_goal": 4
+  },
+  {
+    "id": "ambulance-02",
+    "domain": "ambulance",
+    "source": "generado (semilla 2026, índice 2)",
+    "role": "test",
+    "n_objects": 7,
+    "n_init": 11,
+    "n_goal": 2
+  },
+  {
+    "id": "ambulance-03",
+    "domain": "ambulance",
+    "source": "generado (semilla 2026, índice 3)",
+    "role": "test",
+    "n_objects": 8,
+    "n_init": 15,
+    "n_goal": 2
+  },
+  {
+    "id": "ambulance-04",
+    "domain": "ambulance",
+    "source": "generado (semilla 2026, índice 4)",
+    "role": "test",
+    "n_objects": 10,
+    "n_init": 15,
+    "n_goal": 4
+  },
+  {
+    "id": "ambulance-05",
+    "domain": "ambulance",
+    "source": "generado (semilla 2026, índice 5)",
+    "role": "test",
+    "n_objects": 10,
+    "n_init": 15,
+    "n_goal": 4
+  },
+  {
+    "id": "ambulance-06",
+    "domain": "ambulance",
+    "source": "generado (semilla 2026, índice 6)",
+    "role": "test",
+    "n_objects": 8,
+    "n_init": 15,
+    "n_goal": 2
+  },
+  {
+    "id": "ambulance-07",
+    "domain": "ambulance",
+    "source": "generado (semilla 2026, índice 7)",
+    "role": "test",
+    "n_objects": 10,
+    "n_init": 17,
+    "n_goal": 2
+  },
+  {
+    "id": "ambulance-08",
+    "domain": "ambulance",
+    "source": "generado (semilla 2026, índice 8)",
+    "role": "test",
+    "n_objects": 12,
+    "n_init": 20,
+    "n_goal": 3
+  },
+  {
+    "id": "ambulance-09",
+    "domain": "ambulance",
+    "source": "generado (semilla 2026, índice 9)",
+    "role": "test",
+    "n_objects": 12,
+    "n_init": 23,
+    "n_goal": 4
+  },
+  {
+    "id": "ambulance-10",
+    "domain": "ambulance",
+    "source": "generado (semilla 2026, índice 10)",
+    "role": "test",
+    "n_objects": 11,
+    "n_init": 22,
+    "n_goal": 3
+  }
+]

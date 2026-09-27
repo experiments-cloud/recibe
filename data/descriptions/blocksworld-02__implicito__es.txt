@@ -1,0 +1,3 @@
+Hay cuatro bloques: A, B, C y D. Un brazo robótico puede tomar y sostener un bloque a la vez. Los bloques A y D están cada uno solo sobre la mesa. Hay una pila formada, de abajo hacia arriba, por B y C; B está sobre la mesa. El robot no sostiene ningún bloque.
+
+Al final se debe cumplir lo siguiente: A sobre B, B sobre C y C sobre D.

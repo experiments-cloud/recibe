@@ -1,0 +1,3 @@
+Hay siete bloques: A, B, C, D, E, F y G. Un brazo robótico puede tomar y sostener un bloque a la vez. Hay una pila formada, de abajo hacia arriba, por D, C, F, A, B, G y E; D está sobre la mesa. El robot no sostiene ningún bloque.
+
+Al final se debe cumplir lo siguiente: A sobre G, G sobre D, D sobre B, B sobre C, C sobre F y F sobre E.
